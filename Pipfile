@@ -8,6 +8,10 @@ django = "*"
 django-grpc = "*"
 grpcio = "*"
 grpcio-tools = "*"
+djangorestframework = "*"
+django-cors-headers = "*"
+python-dotenv = "*"
+drf-yasg = "*"
 
 [dev-packages]
 
