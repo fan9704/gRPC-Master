@@ -12,6 +12,7 @@ djangorestframework = "*"
 django-cors-headers = "*"
 python-dotenv = "*"
 drf-yasg = "*"
+django-restframework = "*"
 
 [dev-packages]
 

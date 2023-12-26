@@ -17,6 +17,7 @@ import logging
 
 logger = logging.getLogger(__name__)
 load_dotenv(find_dotenv())
+PORT = 8001
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
 
@@ -57,6 +58,7 @@ INSTALLED_APPS = [
     'corsheaders',
     'drf_yasg',
     'django_grpc',
+    'rest_framework',
     # app
     'api',
 ]
@@ -138,6 +140,7 @@ USE_TZ = True
 DEFAULT_CHARSET = 'utf-8'
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 MEDIA_URL = '/media/'
+STATIC_URL = '/static/'
 # Default primary key field type
 # https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field
 
